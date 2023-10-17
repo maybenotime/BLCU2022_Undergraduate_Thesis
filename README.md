@@ -1,9 +1,8 @@
-# Hard-Constrained-Text-Generation-with-Controllable-Word-Complexity
+# Hard-Constrained Text Generation with Controllable Word Complexity
 
 ## background and introduction
-
-* 2022 BLCU Thesis
-* 该项目微调mt5模型用填空任务的模式实现例句生成任务，并用prompt实现了词汇难度风格的迁移，可以生成简单普通困难三种风格的例句
+* 该项目为北京语言大学2022届本科毕设
+* 微调mt5模型用填空任务的模式实现例句生成任务，并用prompt tuning实现了词汇难度风格的迁移，可以生成简单普通困难三种风格的例句
 * code目录中包含了训练模型的代码
 * ins_gen_website目录是展示demo的前后端代码，前端vue,后端tornado
 * build_corpus_test中是构建数据集的代码，按照一种全新的自动标注方案进行标注
